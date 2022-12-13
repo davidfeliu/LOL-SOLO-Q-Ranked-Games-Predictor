@@ -18,8 +18,7 @@ Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han af
 | SVM | C=1.0, kernel='rbf', degree=3, gamma='scale', coef0=0.0, shrinking=True, probability=False, tol=0.001, cache_size=200, class_weight=None, verbose=False, max_iter=-1, decision_function_shape='ovr', break_ties=False, random_state=None| 78% | 814 s |
 | Knn | n_neighbors=5, *, weights='uniform', algorithm='auto', leaf_size=30, p=2, metric='minkowski', metric_params=None, n_jobs=None | 77.64% | 22 s|
 | SVC Linear | penalty='l2', loss='squared_hinge', *, dual=True, tol=0.0001, C=1.0, multi_class='ovr', fit_intercept=True, intercept_scaling=1, class_weight=None, verbose=0, random_state=None, max_iter=1000 | 78% | 0.88s|
-| Neuronal Network |  layers=None, name=None
- | 78% | 76 s |
+| Neuronal Network |  layers=None, name=None| 78% | 76 s |
 ## Conclusions
 El millor model que s'ha aconseguit ha estat bastant be ja que accertem el resultat de la partida en un 80% dels casos aixo creec que es un bon resultat ja que en aquestes partides sempre poden pasar coses que no tenim controlades com per exemple si un jugador es desconecta aixo afectara molt a la partida i no en tenim cap seguiment. Per coses com aquestes trobo que esta be tenir el 80%
 ## Idees per treballar en un futur
